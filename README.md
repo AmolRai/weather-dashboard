@@ -1,6 +1,8 @@
 # Overview
 
-This is a React.js-based Weather Dashboard that fetches real-time weather data from the OpenWeatherMap API. The application allows users to search for a city and view its current weather conditions, along with a 5-day forecast. It also features temperature conversion between Celsius and Fahrenheit and maintains the last searched city using local storage.
+I started by setting up the project using Create React App (CRA) and structured it with reusable components to ensure maintainability and scalability. I used React Query for efficient API fetching, caching, and polling to update weather data every 30 seconds.
+
+The app includes search functionality, real-time weather updates, a 5-day forecast, error handling, temperature conversion, and local storage support. The UI features a gradient background for a clean, weather-themed look.
 
 # Installation Guide
 
