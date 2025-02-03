@@ -5,7 +5,7 @@ This is a React.js-based Weather Dashboard that fetches real-time weather data f
 # Installation Guide
 
 - Ensure that [Node.js](https://nodejs.org/en) is downloaded.
-- Clone the Repository: ``
+- Clone the Repository: `https://github.com/AmolRai/weather-dashboard.git`
 - Navigate into the project folder: `cd weather-dashboard`
 - Run `npm install`
 - Create .env file in root directory and add your OpenWeatherMap API key: `REACT_APP_OPENWEATHER_API_KEY=your_api_key_here`
