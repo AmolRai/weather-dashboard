@@ -1,0 +1,23 @@
+.searchContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+}
+
+.searchInput {
+  width: 100%;
+  padding: 10px 1rem;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  font-size: 1.2rem;
+  background-color: #f0f0f0;
+  color: gray;
+}
+
+@media screen and (max-width: 768px) {
+  .searchContainer {
+    width: 300px;
+  }
+}

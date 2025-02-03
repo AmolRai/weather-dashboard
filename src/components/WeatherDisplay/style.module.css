@@ -1,0 +1,75 @@
+.weatherDetails {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.weatherHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.weatherHeader img {
+  width: 10rem;
+}
+
+.weatherHeader h2 {
+  margin-top: 1rem;
+  font-weight: lighter;
+  font-size: 2.5rem;
+}
+
+.degree {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.line {
+  background-color: #f0f0f0;
+  width: 1px;
+  height: 1.5rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.degree span {
+  font-size: 3rem;
+}
+
+.unit {
+  font-weight: lighter;
+  cursor: pointer;
+}
+
+.weatherCondition {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0f0f0;
+  color: #8b8b8b;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  width: 25rem;
+  gap: 12px;
+  font-size: 1.2rem;
+  margin-top: 2.5rem;
+}
+
+.condition {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+  .weatherCondition {
+    width: 20rem;
+  }
+}
